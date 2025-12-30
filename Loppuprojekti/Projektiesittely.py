@@ -6,8 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from streamlit_folium import st_folium
 
-df_askeldata = pd.read_csv('./data/Askeldata.csv')
-df_gps = pd.read_csv('./data/Gps.csv')
+df_askeldata = pd.read_csv('https://raw.githubusercontent.com/Tikkanti/Fysiikan-loppuprojekti/refs/heads/main/Loppuprojekti/data/Askeldata.csv')
+df_gps = pd.read_csv('https://raw.githubusercontent.com/Tikkanti/Fysiikan-loppuprojekti/refs/heads/main/Loppuprojekti/data/Gps.csv')
 
 #Askelmäärä laskettuna suodatetusta kiihtyysdatasta
 from scipy.signal import butter,filtfilt
